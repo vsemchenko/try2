@@ -1,8 +1,8 @@
 
-z = "1234567890"
+#z = "1234567890"
 
 
-l = [1,2,3,4,5,6,7,8,9]
+#l = [1,2,3,4,5,6,7,8,9]
 
 
 #for i in range(len(l)):
@@ -35,9 +35,9 @@ l = [1,2,3,4,5,6,7,8,9]
 #print(r)
 
 
-def pifagor(a,b):
-    c=(a**2 + b**2)**(1/2)
-    return (c)
+#def pifagor(a,b):
+ #   c=(a**2 + b**2)**(1/2)
+  #  return (c)
 
 #r=pifagor(1, 2)
 #print(r)
@@ -82,5 +82,17 @@ def pifagor(a,b):
 
 
 
+
+
+class A:
+    def __init__(self, name =""):
+        self.name = name
+
+    @classmethod
+    def method(cls):
+        cls.my_list = []
+
+A.method()
+print(A.my_list)
 
 
